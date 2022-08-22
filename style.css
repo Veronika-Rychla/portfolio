@@ -425,18 +425,22 @@ footer {
     left: 0;
   }
 
-  .intro__text {
-    width: 250px;
-    position: relative;
-    left: 20px;
-    background-color: var(--background-secondary);
+  .branding {
+    font-size: 1.5rem;
   }
 
-  .intro__content {
-    border: 0;
+  .intro__text {
+    width: 250px;
+    padding: 1rem;
   }
 
   .intro__photo {
-    height: 500px;
+    width: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    gap: 6rem;
   }
 }
