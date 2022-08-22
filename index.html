@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
+    <title>Veronika Rychlá</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="theme-switch-wrapper">
+          <span>Dark mode</span>
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+          </label>
+        </div>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#journey" class="nav-link">My journey</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#hire" class="nav-link">Hire me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="branding">
+        <p>
+          <span class="branding__header">VERONIKA RYCHLÁ</span> Product-minded
+          frontend engineer with experience in copywriting, content creation,
+          translation and lecturing
+        </p>
+      </section>
+      <section class="intro" id="home">
+        <div class="intro__content">
+          <div class="intro__text">
+            I'm a geeky person who loves learning and needs to be constantly
+            creating something. I was always curious about technology and had my
+            first attempts at coding way back at grammar school when I created
+            several webpages for my pet projects. I'm really excited to return
+            to this fascinating field that's always changing so that I can learn
+            something new every day.
+          </div>
+          <div class="intro__photo"></div>
+        </div>
+      </section>
+      <section class="journey" id="journey">
+        <div class="journey__content">
+          <div class="journey__photo"></div>
+          <div class="journey__text">
+            <div class="text">
+              <p>
+                I studied archaeology and English philology at Silesian
+                University and continued to study English and American
+                Literature at Palacky University. During my PhD studies, I
+                started to teach English and even though I enjoyed it, I felt it
+                wasn't really for me so I quit. I was selling videogames for one
+                sweet year (yes, I'm an avid gamer!) but then it was time to
+                move on with my career so I relocated to Prague.
+              </p>
+              <p>
+                I've always wanted to try being a librarian and that dream came
+                true eventually when I became a librarian at a private British
+                school. I loved it, however, I soon discovered how repetitite
+                the job is and I'm a person who loves learning and creating.
+              </p>
+              <p>
+                I was considering a career change and wasn't sure which way to
+                go. I'm also a part-time copywriter but I can't imagine myself
+                doing it for eight hours a day. My brother is a JavaScript
+                programmer who always looks very happy about his job and if he
+                could learn front-end from the scratch in his free time, why
+                couldn't I? I discovered Czechitas at the right time, applied
+                for their Digital Academy: Web course and got in! And I think it
+                was one of my best decisions ever.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="carousel">
+          <div class="carousel__item">
+            <img src="./images/japanglish-web.png" alt="Japanglish web" />
+          </div>
+          <div class="carousel__item">
+            <img
+              src="./images/japanglish-game_01.png"
+              alt="Japanglish the game"
+            />
+          </div>
+          <div class="carousel__item">
+            <img
+              src="./images/japanglish-game_02.png"
+              alt="Japanglish the game"
+            />
+          </div>
+          <div class="carousel__item">
+            <img src="./images/audiolawreader.png" alt="Audio Law Reader" />
+          </div>
+          <div class="carousel__item">
+            <img src="./images/tictactoe.png" alt="tictactoe" />
+          </div>
+        </div>
+        <div class="projects__text">
+          <h3 class="subheading_projects">Japanglish</h3>
+          <p class="text">
+            Japanglish: Trip to Tokyo is an educative visual novel that teaches
+            Japanglish words to English speakers. As any other visual novel, our
+            game mainly focuses on a story and dialogues. As the story
+            progresses, a player gets tested on a variety of Japanglish words
+            that naturally appear in a conversation. The happiness metre shows
+            how successful you are at guessing their meanings. Should the hearts
+            drop to zero, it's a game over and you have to start again. The game
+            has several locations, each consisting of a unique set of test
+            vocabulary connected to a certain place such as a train station,
+            school, café, restaurant, shopping centre and home.
+          </p>
+          <p class="projects__info">Used technologies: CSS animations, React</p>
+          <p class="projects__info link">
+            <a
+              href="https://japanglish-presentation.netlify.app/"
+              target="_blank"
+              >See the web presentation</a
+            >
+          </p>
+          <p class="projects__info link">
+            <a href="https://japanglish.netlify.app" target="_blank"
+              >Play the game</a
+            >
+          </p>
+          <h3 class="subheading_projects">Audio Law Reader</h3>
+          <p class="text">
+            Audio Law Reader is an interactive reading and learning environment
+            for lawyers and studends of law I'm currently working on in
+            cooperation with Ondřej Staněk from Avast. The website and the app
+            are still in the making but they should be released soon for initial
+            user testing.
+          </p>
+          <p class="projects__info">Used technologies: Next.js (template)</p>
+          <p class="projects__info link">
+            <a href="https://audiolawreader.com/" target="_blank"
+              >Visit the website</a
+            >
+          </p>
+          <h3 class="subheading_projects">Tic-tac-toe</h3>
+          <p class="text">
+            This is my very first attempt at coding after years and finally even
+            programming - a simple but functional game of tic-tac-toe. Sorry,
+            Czech only.
+          </p>
+          <p class="projects__info">Used technologies: HTML, CSS, JavaScript</p>
+          <p class="projects__info link">
+            <a
+              href="https://veronika-rychla.github.io/piskvorky/"
+              target="_blank"
+              >Play the game</a
+            >
+          </p>
+        </div>
+      </section>
+      <section class="hire" id="hire">
+        <div class="hire__content">
+          <div class="hire__photo"></div>
+          <div class="hire__text">
+            <p>If you like what I do, I'm currently open for hire.</p>
+            <p>
+              My front-end skills: HTML, CSS, JavaScript, Git, UX (basics),
+              React (basics), API (basics)
+            </p>
+            <p>My other skills: copywriting, translating, lecturing</p>
+          </div>
+        </div>
+      </section>
+      <footer class="contact" id="contact">
+        <section class="contact">
+          <div class="contact__row">
+            <span class="contact__label">E-mail:</span
+            ><span class="contact__detail">veronika.rychla108@gmail.com</span>
+          </div>
+          <div class="contact__row">
+            <span class="contact__label">Phone:</span
+            ><span class="contact__detail">+420 776 749 618</span>
+          </div>
+          <div class="contact__row">
+            <span class="contact__label">Location: </span
+            ><span class="contact__detail">Prague</span>
+          </div>
+        </section>
+        <section class="media">
+          <div class="media__row">
+            <img
+              class="icon"
+              src="./images/github.png"
+              alt="GitHub icon"
+              width="20"
+            />
+            <span
+              ><a href="https://github.com/Veronika-Rychla" target="_blank"
+                >github.com/Veronika-Rychla</a
+              ></span
+            >
+          </div>
+          <div class="media__row">
+            <img
+              class="icon"
+              src="./images/linkedin.png"
+              alt="LinedIn icon"
+              width="20"
+            />
+            <span
+              ><a
+                href="https://www.linkedin.com/in/veronika-rychla"
+                target="_blank"
+                >linkedin.com/in/veronika-rychla</a
+              ></span
+            >
+          </div>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>
